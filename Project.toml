@@ -4,11 +4,15 @@ version = "0.1.0+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
+LicenseSpring_jll = "ea2c2f5b-d23d-53da-ad7e-0e62c0a9a2e9"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+Preferences = "21216c6a-2e73-6563-6e65-726566657250"
 Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 
 [compat]
-JLLWrappers = "1.7.0"
+JLLWrappers = "1.6"
 julia = "1.6"
+LicenseSpring_jll = "7"
 Libdl = "< 0.0.1, 1"
+Preferences = "1"
 Artifacts = "< 0.0.1, 1"
