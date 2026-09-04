@@ -1,0 +1,33 @@
+[[BundleLoader]]
+arch = "aarch64"
+git-tree-sha1 = "1cdedeede10795fafff135e58960bdd3d21a5717"
+os = "macos"
+
+    [[BundleLoader.download]]
+    sha256 = "46467523e9f6fa055a0b787cbbfb3a374e708a5a11d1baef036558dd340668b5"
+    url = "https://github.com/PumasAI/BundleLoader_jll.jl/releases/download/BundleLoader-v0.1.0+0/BundleLoader.v0.1.0.aarch64-apple-darwin.tar.gz"
+[[BundleLoader]]
+arch = "x86_64"
+git-tree-sha1 = "2f39b6e0bb01c9ffc7ea5b2429a217ef49c74b12"
+os = "macos"
+
+    [[BundleLoader.download]]
+    sha256 = "d0907b88fe3e36badeb7aaac4503825505cc1500278383818fc627509c3c94ee"
+    url = "https://github.com/PumasAI/BundleLoader_jll.jl/releases/download/BundleLoader-v0.1.0+0/BundleLoader.v0.1.0.x86_64-apple-darwin.tar.gz"
+[[BundleLoader]]
+arch = "x86_64"
+git-tree-sha1 = "753a3b764ea5874ecf01314777630092fff6eab5"
+libc = "glibc"
+os = "linux"
+
+    [[BundleLoader.download]]
+    sha256 = "38b09b749c4d2ddd5d72797a114646a19f691456674bee9e6b5a60b7ea3a0687"
+    url = "https://github.com/PumasAI/BundleLoader_jll.jl/releases/download/BundleLoader-v0.1.0+0/BundleLoader.v0.1.0.x86_64-linux-gnu.tar.gz"
+[[BundleLoader]]
+arch = "x86_64"
+git-tree-sha1 = "8151ecb3cf2c7367e815510ee8902d2bbafd3cde"
+os = "windows"
+
+    [[BundleLoader.download]]
+    sha256 = "6f28f4c261598be8018b1da177ea4ad5f227c0b0d9ef852fe51fad572353b79a"
+    url = "https://github.com/PumasAI/BundleLoader_jll.jl/releases/download/BundleLoader-v0.1.0+0/BundleLoader.v0.1.0.x86_64-w64-mingw32.tar.gz"
