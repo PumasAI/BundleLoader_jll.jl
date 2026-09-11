@@ -1,5 +1,8 @@
 # Use baremodule to shave off a few KB from the serialized `.ji` file
 baremodule BundleLoader_jll
+
+# Hello world
+
 using Base
 using Base: UUID
 import JLLWrappers
