@@ -37,6 +37,7 @@ function _load_bundle(bundle_dir::Base.AbstractString,
         license_arg,
         LicenseSpring_jll.libLicenseSpring_handle,
     )
+    rc == 13 && Base.error("BundleLoader load_bundle failed for $module_name (rc=13): the license stored on this machine has expired. Clear it with \"Pumas: Clear License\" from the VS Code command palette or the Pumas welcome page, then reinstall to enter your new license key.")
     rc == 0 || Base.error("BundleLoader load_bundle failed for $module_name (rc=$rc)")
 end
 
